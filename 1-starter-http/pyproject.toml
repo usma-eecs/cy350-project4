@@ -1,0 +1,11 @@
+[project]
+name = "cy350-project-1"
+version = "0.1.0"
+description = "HTTP Server"
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography>=50.0",
+]
+
+[tool.autopep8]
+max_line_length = 120
